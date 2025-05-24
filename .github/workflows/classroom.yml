@@ -45,7 +45,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Teste 3
-        setup-command: "./setup.sh"
+        setup-command: "./setup.sh 3"
         command: "./run.sh"
         timeout: 10
         max-score: 1
